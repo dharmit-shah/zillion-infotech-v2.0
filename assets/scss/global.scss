@@ -1,0 +1,94 @@
+* {
+    // cursor: none;
+    cursor: context-menu;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PlusJakartaSans';
+}
+
+// colors
+:root {
+    --primary-color: #0C064A;
+    --primary-100: #1F2E54;
+    --primary-200: #444655;
+    --secondary-100: #FFFFFF;
+    --secondary-200: #CAC9D0;
+    --secondary-300: #f7f7ff;
+}
+
+// custom Cursor
+.cursor {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid orange;
+    transition: all 200ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+}
+
+.cursor2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: orange;
+    opacity: .5;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width .3s, height .3s, opacity .3s;
+}
+
+.cursorinnerhover {
+    width: 50px;
+    height: 50px;
+    opacity: .5;
+}
+
+// fonts
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../font/PlusJakartaSans-200.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/PlusJakartaSans-300.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/PlusJakartaSans-400.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/PlusJakartaSans-500.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/PlusJakartaSans-600.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/PlusJakartaSans-700.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PlusJakartaSans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../font/PlusJakartaSans-800.ttf') format('truetype');
+}

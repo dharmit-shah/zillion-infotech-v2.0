@@ -1,0 +1,208 @@
+.careerDetail_component {
+  background-image: url(../img/career_detail_hero_bg.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+
+  .job_opening_tag {
+    border-radius: 100px;
+    padding: 10px 34px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    width: max-content;
+    color: var(--secondary-100);
+    margin-bottom: 16px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--secondary-100);
+      color: var(--primary-color);
+      transition: 0.6s ease-in-out;
+    }
+  }
+
+  h1 {
+    color: var(--secondary-100);
+    font-weight: 700;
+    font-size: 26px;
+    @media (min-width:768px){
+        font-size: 54px;
+    }
+  }
+
+  .job_short_details {
+    .job_data {
+      display: flex;
+      gap: 10px;
+      color: var(--secondary-100);
+      align-items: center;
+
+      .date_dot {
+        background-color: var(--secondary-100);
+        border-radius: 50%;
+        width: 4px;
+        height: 4px;
+      }
+
+      p {
+        color: var(--secondary-100);
+        margin: 0;
+      }
+    }
+  }
+}
+
+.job_detail_component {
+  padding: 40px 0;
+
+  .job_details_section {
+    padding-top: 24px;
+    flex-direction: column;
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+
+    .job_leftaside {
+      width: 100%;
+      @media (min-width: 992px) {
+        width: calc(50% - 20px);
+      }
+
+      .experience_section {
+        h4 {
+          color: var(--primary-color);
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        ul {
+          li {
+            color: var(--primary-200);
+            padding-bottom: 10px;
+
+            strong {
+              color: var(--primary-100);
+            }
+          }
+        }
+
+        p {
+          color: var(--primary-200);
+        }
+      }
+    }
+
+    .job_rightaside {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      @media (min-width: 992px) {
+        width: calc(50% - 20px);
+      }
+
+      .skills_section {
+        h4 {
+          color: var(--primary-color);
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        .skills_box {
+          p {
+            padding: 10px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            background-color: var(--secondary-300);
+            border-radius: 100px;
+            margin: 0;
+          }
+        }
+      }
+
+      .whatget_section {
+        background-color: var(--primary-color);
+        padding: 24px;
+        border-radius: 16px;
+        color: var(--secondary-100);
+
+        h4 {
+          color: var(--secondary-100);
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 16px;
+        }
+
+        .skills_box {
+          ul {
+            li {
+              padding-bottom: 14px;
+
+              &:last-child {
+                padding-bottom: 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// workTogether_component
+.workTogether_component {
+  padding: 80px 0 40px 0;
+  background-color: var(--secondary-300);
+
+  .workTogether_heading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: var(--primary-color);
+        font-weight: 600;
+        font-size: 20px;
+        @media (min-width:768px){
+            font-size: 36px;
+        }
+    }
+
+    p {
+      color: var(--primary-200);
+    }
+
+    .get_started_btn {
+      display: flex;
+      gap: 16px;
+      background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+      color: var(--secondary-100);
+      border-radius: 60px;
+      justify-content: center;
+      width: max-content;
+
+      .hero_btns {
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+        align-items: center;
+        padding: 14px 24px;
+        display: flex;
+        font-weight: 500;
+        text-decoration: none;
+        gap: 10px;
+        border: none;
+        transform-origin: 50% 0;
+        color: var(--secondary-100);
+
+        &:hover {
+          transition: 0.6s ease;
+          padding-left: 26px;
+        }
+      }
+    }
+  }
+}

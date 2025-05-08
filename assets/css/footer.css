@@ -1,0 +1,156 @@
+.footer_component {
+  padding: 40px 0 20px 0;
+  border-top: 1px solid var(--secondary-200);
+}
+.footer_component .footer_response {
+  flex-wrap: wrap;
+}
+.footer_component .footer_response .footer_aboutus img {
+  width: 120px;
+  height: auto;
+}
+.footer_component .footer_response .footer_aboutus p {
+  color: var(--primary-200);
+}
+.footer_component .footer_response .footer_aboutus .footer_support h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer_component .footer_response .footer_aboutus .footer_support p {
+  color: var(--primary-200);
+}
+.footer_component .footer_response .footer_aboutus .footer_support p a {
+  color: var(--primary-200);
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer_component .footer_response .footer_aboutus .footer_support p a:hover {
+  color: var(--primary-color);
+  margin-left: 3px;
+  transition: all 0.3s ease-out;
+}
+.footer_component .footer_response .footer_usefullinks h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_component .footer_response .footer_usefullinks .links_menu a {
+  color: var(--primary-200);
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer_component .footer_response .footer_usefullinks .links_menu a:hover {
+  color: var(--primary-color);
+  margin-left: 3px;
+  transition: all 0.3s ease-out;
+}
+.footer_component .footer_response .footer_intouch h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_component .footer_response .footer_intouch .links_menu a {
+  color: var(--primary-200);
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer_component .footer_response .footer_intouch .links_menu a:hover {
+  color: var(--primary-color);
+  margin-left: 3px;
+  transition: all 0.3s ease-out;
+}
+.footer_component .footer_response .footer_intouch .footer_email h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer_component .footer_response .footer_intouch .footer_email p {
+  color: var(--primary-200);
+}
+.footer_component .footer_response .footer_intouch .footer_email p a {
+  color: var(--primary-200);
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer_component .footer_response .footer_intouch .footer_email p a:hover {
+  color: var(--primary-color);
+  margin-left: 3px;
+  transition: all 0.3s ease-out;
+}
+.footer_component .footer_response .footer_newsletter h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer_component .footer_response .footer_newsletter .footer_subscription {
+  display: flex;
+  gap: 6px;
+  position: relative;
+}
+.footer_component .footer_response .footer_newsletter .footer_subscription input {
+  height: 48px;
+  border-radius: 100px;
+}
+.footer_component .footer_response .footer_newsletter .footer_subscription .get_started_btn {
+  display: flex;
+  gap: 16px;
+  background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+}
+
+.sub_footer {
+  background-color: var(--secondary-300);
+  padding: 14px 0;
+}
+.sub_footer p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+}
+@media (min-width: 550px) {
+  .sub_footer p {
+    font-size: 14px;
+  }
+}
+.sub_footer .footer_socialmedia .skype {
+  background-color: var(--primary-100);
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_footer .footer_socialmedia .skype img {
+  height: 16px;
+  width: 16px;
+}
+.sub_footer .footer_socialmedia .twitter {
+  background-color: var(--primary-100);
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_footer .footer_socialmedia .twitter img {
+  height: 16px;
+  width: 16px;
+}
+.sub_footer .footer_socialmedia .linkedIn {
+  background-color: var(--primary-100);
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_footer .footer_socialmedia .linkedIn img {
+  height: 16px;
+  width: 16px;
+}/*# sourceMappingURL=footer.css.map */

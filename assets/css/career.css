@@ -1,0 +1,376 @@
+.career_component {
+  background-image: url(../img/career_hero_bg.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.career_component h1 {
+  color: var(--secondary-100);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .career_component h1 {
+    font-size: 54px;
+  }
+}
+
+.profitable_component .profitable_container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 80px 20px;
+}
+@media (min-width: 992px) {
+  .profitable_component .profitable_container {
+    padding: 80px 0;
+    flex-direction: row;
+  }
+}
+.profitable_component .profitable_container img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .profitable_component .profitable_container img {
+    width: 48%;
+  }
+}
+.profitable_component .profitable_container img:hover {
+  animation: enquiry 1s infinite ease-in-out alternate;
+}
+.profitable_component .profitable_container .profitable_desc {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .profitable_component .profitable_container .profitable_desc {
+    width: 48%;
+  }
+}
+.profitable_component .profitable_container .profitable_desc h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .profitable_component .profitable_container .profitable_desc h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+.profitable_component .profitable_container .profitable_desc p {
+  color: var(--primary-200);
+  text-align: center;
+}
+@media (min-width: 882px) {
+  .profitable_component .profitable_container .profitable_desc p {
+    text-align: left;
+  }
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points {
+  flex-direction: column;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .profitable_data {
+  gap: 16px;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .profitable_data img {
+  height: 64px;
+  width: 64px;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .profitable_data .profitable_heading h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-100);
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .profitable_data .profitable_heading p {
+  text-align: left;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn {
+  display: flex;
+  gap: 16px;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn :first-child {
+  background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+  color: var(--secondary-100);
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn .hero_btns {
+  transition: 0.6s ease-in-out;
+  align-items: center;
+  justify-content: center;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn .hero_btns:hover {
+  transition: 0.6s ease;
+  padding-left: 26px;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn .hero_btns img {
+  width: -moz-max-content;
+  width: max-content;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn a {
+  border-radius: 60px;
+  align-items: center;
+  padding: 14px 24px;
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 10px;
+  border: none;
+  transform-origin: 50% 0;
+}
+.profitable_component .profitable_container .profitable_desc .profitable_points .get_started_btn a img {
+  background-image: none;
+  border: none;
+}
+
+.open_position_component {
+  background-color: var(--secondary-300);
+  padding: 80px 0;
+}
+.open_position_component .open_position_heading {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .open_position_component .open_position_heading {
+    width: 50%;
+  }
+}
+.open_position_component .open_position_heading h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .open_position_component .open_position_heading h2 {
+    font-size: 36px;
+  }
+}
+.open_position_component .open_position_desc .open_position_cards {
+  padding-top: 24px;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box {
+  background-color: var(--secondary-100);
+  border-radius: 16px;
+  padding: 24px;
+  width: calc(100% - 0px);
+}
+@media (min-width: 500px) {
+  .open_position_component .open_position_desc .open_position_cards .open_position_box {
+    width: calc(50% - 20px);
+  }
+}
+@media (min-width: 992px) {
+  .open_position_component .open_position_desc .open_position_cards .open_position_box {
+    width: calc(33% - 20px);
+  }
+}
+@media (min-width: 1440px) {
+  .open_position_component .open_position_desc .open_position_cards .open_position_box {
+    width: calc(25% - 20px);
+  }
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box h4 {
+  font-size: 24px;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box p {
+  margin: 0;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .opening_data {
+  align-items: center;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .opening_data p {
+  color: var(--primary-200);
+  margin: 0;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .opening_data .date_dot {
+  background-color: #3c2fc0;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .opening_location {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--secondary-200);
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .opening_location p {
+  color: var(--primary-200);
+  margin: 0;
+  font-weight: 500;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn {
+  display: flex;
+  gap: 16px;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn :first-child {
+  background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+  color: var(--secondary-100);
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn .hero_btns {
+  transition: 0.6s ease-in-out;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn .hero_btns:hover {
+  transition: 0.6s ease;
+  padding-left: 26px;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn a {
+  border-radius: 60px;
+  align-items: center;
+  padding: 14px 24px;
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 10px;
+  border: none;
+  transform-origin: 50% 0;
+}
+.open_position_component .open_position_desc .open_position_cards .open_position_box .get_started_btn a img {
+  background-image: none;
+  border: none;
+}
+
+.subscribe_component .subscribe_container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 40px 20px;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .subscribe_component .subscribe_container {
+    padding: 80px 0;
+    flex-direction: row;
+  }
+}
+.subscribe_component .subscribe_container img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .subscribe_component .subscribe_container img {
+    width: 48%;
+  }
+}
+.subscribe_component .subscribe_container img:hover {
+  animation: enquiry 1s infinite ease-in-out alternate;
+}
+.subscribe_component .subscribe_container .subscribe_desc {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .subscribe_component .subscribe_container .subscribe_desc {
+    width: 48%;
+  }
+}
+.subscribe_component .subscribe_container .subscribe_desc h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 550px) {
+  .subscribe_component .subscribe_container .subscribe_desc h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+}
+.subscribe_component .subscribe_container .subscribe_desc p {
+  color: var(--primary-200);
+  text-align: center;
+}
+@media (min-width: 882px) {
+  .subscribe_component .subscribe_container .subscribe_desc p {
+    text-align: left;
+  }
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points {
+  flex-direction: column;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm {
+  display: flex;
+  gap: 16px;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .col-id {
+  padding: 0;
+  width: calc(100% - 0px);
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .col-id .iti--allow-dropdown {
+  width: 100%;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .col-id input {
+  height: 50px;
+  border: 1.15px solid var(--secondary-200);
+  font-size: 14px;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn {
+  display: flex;
+  gap: 16px;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn :first-child {
+  background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+  color: var(--secondary-100);
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn .hero_btns {
+  transition: 0.6s ease-in-out;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn .hero_btns:hover {
+  transition: 0.6s ease;
+  padding-left: 26px;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn a {
+  border-radius: 60px;
+  align-items: center;
+  padding: 14px 24px;
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 10px;
+  border: none;
+  transform-origin: 50% 0;
+}
+.subscribe_component .subscribe_container .subscribe_desc .subscribe_points .subscribeForm .get_started_btn a img {
+  background-image: none;
+  border: none;
+}
+
+.video_component {
+  background-image: linear-gradient(360deg, rgba(3, 0, 27, 0.9098039216), rgba(3, 0, 27, 0.1490196078)), url(../img/video_container.svg);
+  padding: 24px;
+  height: 350px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+.video_component .video_details h4 {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--secondary-100);
+}
+.video_component .video_details p {
+  color: var(--secondary-100);
+  margin: 0;
+}
+.video_component .video_player img {
+  animation: enquiry 1s infinite ease-in-out alternate;
+  cursor: pointer;
+}
+
+@keyframes enquiry {
+  100% {
+    transform: translateY(5px);
+  }
+}/*# sourceMappingURL=career.css.map */

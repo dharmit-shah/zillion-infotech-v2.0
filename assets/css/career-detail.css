@@ -1,0 +1,180 @@
+.careerDetail_component {
+  background-image: url(../img/career_detail_hero_bg.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.careerDetail_component .job_opening_tag {
+  border-radius: 100px;
+  padding: 10px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  width: -moz-max-content;
+  width: max-content;
+  color: var(--secondary-100);
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+.careerDetail_component .job_opening_tag:hover {
+  background-color: var(--secondary-100);
+  color: var(--primary-color);
+  transition: 0.6s ease-in-out;
+}
+.careerDetail_component h1 {
+  color: var(--secondary-100);
+  font-weight: 700;
+  font-size: 26px;
+}
+@media (min-width: 768px) {
+  .careerDetail_component h1 {
+    font-size: 54px;
+  }
+}
+.careerDetail_component .job_short_details .job_data {
+  display: flex;
+  gap: 10px;
+  color: var(--secondary-100);
+  align-items: center;
+}
+.careerDetail_component .job_short_details .job_data .date_dot {
+  background-color: var(--secondary-100);
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+.careerDetail_component .job_short_details .job_data p {
+  color: var(--secondary-100);
+  margin: 0;
+}
+
+.job_detail_component {
+  padding: 40px 0;
+}
+.job_detail_component .job_details_section {
+  padding-top: 24px;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .job_detail_component .job_details_section {
+    flex-direction: row;
+  }
+}
+.job_detail_component .job_details_section .job_leftaside {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .job_detail_component .job_details_section .job_leftaside {
+    width: calc(50% - 20px);
+  }
+}
+.job_detail_component .job_details_section .job_leftaside .experience_section h4 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.job_detail_component .job_details_section .job_leftaside .experience_section ul li {
+  color: var(--primary-200);
+  padding-bottom: 10px;
+}
+.job_detail_component .job_details_section .job_leftaside .experience_section ul li strong {
+  color: var(--primary-100);
+}
+.job_detail_component .job_details_section .job_leftaside .experience_section p {
+  color: var(--primary-200);
+}
+.job_detail_component .job_details_section .job_rightaside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (min-width: 992px) {
+  .job_detail_component .job_details_section .job_rightaside {
+    width: calc(50% - 20px);
+  }
+}
+.job_detail_component .job_details_section .job_rightaside .skills_section h4 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.job_detail_component .job_details_section .job_rightaside .skills_section .skills_box p {
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--secondary-300);
+  border-radius: 100px;
+  margin: 0;
+}
+.job_detail_component .job_details_section .job_rightaside .whatget_section {
+  background-color: var(--primary-color);
+  padding: 24px;
+  border-radius: 16px;
+  color: var(--secondary-100);
+}
+.job_detail_component .job_details_section .job_rightaside .whatget_section h4 {
+  color: var(--secondary-100);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.job_detail_component .job_details_section .job_rightaside .whatget_section .skills_box ul li {
+  padding-bottom: 14px;
+}
+.job_detail_component .job_details_section .job_rightaside .whatget_section .skills_box ul li:last-child {
+  padding-bottom: 0px;
+}
+
+.workTogether_component {
+  padding: 80px 0 40px 0;
+  background-color: var(--secondary-300);
+}
+.workTogether_component .workTogether_heading {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.workTogether_component .workTogether_heading h2 {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .workTogether_component .workTogether_heading h2 {
+    font-size: 36px;
+  }
+}
+.workTogether_component .workTogether_heading p {
+  color: var(--primary-200);
+}
+.workTogether_component .workTogether_heading .get_started_btn {
+  display: flex;
+  gap: 16px;
+  background-image: linear-gradient(90deg, #f86800, #3c2fc0);
+  color: var(--secondary-100);
+  border-radius: 60px;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+.workTogether_component .workTogether_heading .get_started_btn .hero_btns {
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+  align-items: center;
+  padding: 14px 24px;
+  display: flex;
+  font-weight: 500;
+  text-decoration: none;
+  gap: 10px;
+  border: none;
+  transform-origin: 50% 0;
+  color: var(--secondary-100);
+}
+.workTogether_component .workTogether_heading .get_started_btn .hero_btns:hover {
+  transition: 0.6s ease;
+  padding-left: 26px;
+}/*# sourceMappingURL=career-detail.css.map */
