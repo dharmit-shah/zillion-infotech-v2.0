@@ -3,9 +3,12 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
+  @media (min-width: 1440px) {
+    height: 50vh;
+  }
 
   h1 {
     color: var(--secondary-100);
@@ -97,7 +100,7 @@
             }
 
             input {
-              height: 50px;
+              height: 60px;
               border: 1.15px solid var(--secondary-200);
               font-size: 14px;
             }
@@ -153,7 +156,7 @@
 
     .contactDetail_box {
       padding: 36px;
-      background-color: var(--primary-color);
+      background-color: #3c2fc0;
       border-radius: 24px;
 
       .stay_connected {
@@ -201,7 +204,7 @@
 
 // client_component
 .client_component {
-  padding: 80px 0;
+  padding: 40px 0 20px 0;
   text-align: center;
 
   .client_header {
@@ -291,101 +294,100 @@
 
 // faq_component
 .faq_component {
-    background-color: var(--secondary-300);
-    padding: 80px 0;
-  
-    .faq_box {
-      flex-direction: column-reverse;
-      @media (min-width: 992px) {
-        flex-direction: row;
-      }
-      img {
-        width: 50%;
-        border-radius: 16px;
-      }
-  
-      .faq_details {
-        h2 {
-          font-size: 20px;
-          color: var(--primary-color);
-          font-weight: 600;
-          text-align: center;
-          @media (min-width: 550px) {
-            font-size: 36px;
-          }
-          @media (min-width: 882px) {
-            text-align: left;
-          }
+  background-color: var(--secondary-300);
+  padding: 80px 0;
+
+  .faq_box {
+    flex-direction: column-reverse;
+    @media (min-width: 992px) {
+      flex-direction: row;
+    }
+    img {
+      width: 50%;
+      border-radius: 16px;
+    }
+
+    .faq_details {
+      h2 {
+        font-size: 20px;
+        color: var(--primary-color);
+        font-weight: 600;
+        text-align: center;
+        @media (min-width: 550px) {
+          font-size: 36px;
         }
-  
-        p {
-          color: var(--primary-200);
-          text-align: center;
-          @media (min-width: 550px) {
-            text-align: left;
-          }
+        @media (min-width: 882px) {
+          text-align: left;
         }
-  
-        .faq_container {
-          .faq {
-            .faq-list {
-              ul {
-                padding: 0;
-                list-style: none;
-  
-                li {
-                  padding: 20px 0;
+      }
+
+      p {
+        color: var(--primary-200);
+        text-align: center;
+        @media (min-width: 550px) {
+          text-align: left;
+        }
+      }
+
+      .faq_container {
+        .faq {
+          .faq-list {
+            ul {
+              padding: 0;
+              list-style: none;
+
+              li {
+                padding: 20px 0;
+                position: relative;
+                border-bottom: 1px solid var(--secondary-200);
+
+                a {
+                  display: block;
                   position: relative;
-                  border-bottom: 1px solid var(--secondary-200);
-  
-                  a {
-                    display: block;
-                    position: relative;
-                    font-size: 18px;
-                    line-height: 24px;
+                  font-size: 18px;
+                  line-height: 24px;
+                  font-weight: 600;
+                  padding: 0 30px 0 0;
+                  outline: none;
+                  cursor: pointer;
+                  text-decoration: none;
+                  color: var(--primary-100);
+
+                  .icon-show {
+                    font-size: 24px;
+                    position: absolute;
+                    right: 0;
+                    top: 12px;
+                    display: none;
+                  }
+
+                  .icon-close {
+                    font-size: 24px;
+                    position: absolute;
+                    right: 0;
+                    top: 12px;
+                  }
+
+                  .collapsed {
+                    transition: 0.3s;
                     font-weight: 600;
-                    padding: 0 30px 0 0;
-                    outline: none;
-                    cursor: pointer;
-                    text-decoration: none;
+                    font-size: 16px;
                     color: var(--primary-100);
-  
+
                     .icon-show {
-                      font-size: 24px;
-                      position: absolute;
-                      right: 0;
-                      top: 12px;
+                      display: inline-block;
+                    }
+
+                    .icon-close {
                       display: none;
                     }
-  
-                    .icon-close {
-                      font-size: 24px;
-                      position: absolute;
-                      right: 0;
-                      top: 12px;
-                    }
-  
-                    .collapsed {
-                      transition: 0.3s;
-                      font-weight: 600;
-                      font-size: 16px;
-                      color: var(--primary-100);
-  
-                      .icon-show {
-                        display: inline-block;
-                      }
-  
-                      .icon-close {
-                        display: none;
-                      }
-                    }
                   }
-  
-                  p {
-                    margin-bottom: 0;
-                    padding: 10px 0 0 0;
-                    text-align: left;
-                  }
+                }
+
+                p {
+                  margin-bottom: 0;
+                  padding: 10px 0 0 0;
+                  text-align: left;
                 }
               }
             }
@@ -394,6 +396,7 @@
       }
     }
   }
+}
 
 // keywords
 @keyframes enquiry {

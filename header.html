@@ -16,32 +16,35 @@
     <header>
         <section id="header_component" class="header_component">
             <!-- Top Header -->
-            <div class="container-fluid header_section w-100">
-                <div class="top_header_contact d-flex gap-4">
-                    <div class="time_box d-flex">
-                        <img src="./assets/img/timer-icon.svg" alt="Timer Icon">
-                        <p>Time : Mon-Fri: 9:30 AM - 7:30 PM</p>
+            <div class="header_section w-100 p-0">
+                <div class="container header_section">
+                    <div class="top_header_contact d-flex gap-4">
+                        <div class="time_box d-flex">
+                            <img src="./assets/img/timer-icon.svg" alt="Timer Icon">
+                            <p>Time : Mon-Fri: 9:30 AM - 7:30 PM</p>
+                        </div>
+                        <div class="email_box d-flex">
+                            <img src="./assets/img/email-icon.svg" alt="Email Icon">
+                            <a href="mailto:info@zillioninfotech.com" title="Connect with us">info@zillioninfotech.com
+                                </p>
+                        </div>
                     </div>
-                    <div class="email_box d-flex">
-                        <img src="./assets/img/email-icon.svg" alt="Email Icon">
-                        <a href="mailto:info@zillioninfotech.com" title="Connect with us">info@zillioninfotech.com</p>
+                    <div class="top_header_socials d-flex gap-3">
+                        <p>Follow Us:</p>
+                        <a href="skype:live:.cid.99be271b1b7a2bc8?chat" title="Skype">
+                            <img src="./assets/img/skype-icon.svg" alt="Skype" height="20" width="20">
+                        </a>
+                        <a href="javascript:void(0)" title="X">
+                            <img src="./assets/img/x-icon.svg" alt="X" height="20" width="20">
+                        </a>
+                        <a href="javascript:void(0)" title="Linked In">
+                            <img src="./assets/img/linkedin-icon.svg" alt="Linked In" height="20" width="20">
+                        </a>
                     </div>
-                </div>
-                <div class="top_header_socials d-flex gap-3">
-                    <p>Follow Us:</p>
-                    <a href="skype:live:.cid.99be271b1b7a2bc8?chat" title="Skype">
-                        <img src="./assets/img/skype-icon.svg" alt="Skype" height="20" width="20">
-                    </a>
-                    <a href="javascript:void(0)" title="X">
-                        <img src="./assets/img/x-icon.svg" alt="X" height="20" width="20">
-                    </a>
-                    <a href="javascript:void(0)" title="Linked In">
-                        <img src="./assets/img/linkedin-icon.svg" alt="Linked In" height="20" width="20">
-                    </a>
                 </div>
             </div>
             <!-- Header -->
-            <div class="container-fluid header_menu_section w-100">
+            <div class="container header_menu_section w-100">
                 <div class="header_logo">
                     <a href="./">
                         <img src="./assets/img/logo.png" width="150" alt="Zillion Logo">
@@ -72,6 +75,7 @@
     <div class="cursor2"></div>
 
     <script src="./assets/js/theme.js"></script>
+
     <script>
         const hamburgerBtn = document.getElementById('hamburgerBtn');
         const mobileMenu = document.getElementById('mobileMenu');
@@ -80,6 +84,7 @@
             mobileMenu.classList.toggle('show');
         });
     </script>
+
 </body>
 
 </html>

@@ -48,7 +48,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 16px;
-  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1019607843);
 }
 .header_component .header_menu_section .header_logo img {
   cursor: pointer;

@@ -3,9 +3,12 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
+    @media (min-width:1440px) {
+    height: 50vh;
+  }
 
   h1 {
     color: var(--secondary-100);

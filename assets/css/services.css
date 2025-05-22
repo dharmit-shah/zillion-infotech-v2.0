@@ -3,9 +3,14 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
+}
+@media (min-width: 1440px) {
+  .service_hero_component {
+    height: 50vh;
+  }
 }
 .service_hero_component h1 {
   color: var(--secondary-100);

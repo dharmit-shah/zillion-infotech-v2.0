@@ -3,9 +3,14 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
+}
+@media (min-width: 1440px) {
+  .contactUs_component {
+    height: 50vh;
+  }
 }
 .contactUs_component h1 {
   color: var(--secondary-100);
@@ -100,7 +105,7 @@
   width: 100%;
 }
 .contact_form_component .contact_response .contactForm_box .contactForm .row-id .col-id input {
-  height: 50px;
+  height: 60px;
   border: 1.15px solid var(--secondary-200);
   font-size: 14px;
 }
@@ -143,7 +148,7 @@
 }
 .contact_form_component .contact_response .contactDetail_box {
   padding: 36px;
-  background-color: var(--primary-color);
+  background-color: #3c2fc0;
   border-radius: 24px;
 }
 .contact_form_component .contact_response .contactDetail_box .stay_connected h4 {
@@ -178,7 +183,7 @@
 }
 
 .client_component {
-  padding: 80px 0;
+  padding: 40px 0 20px 0;
   text-align: center;
 }
 .client_component .client_header h2 {

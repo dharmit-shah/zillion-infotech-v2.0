@@ -3,9 +3,14 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
+}
+@media (min-width: 1440px) {
+  .careerDetail_component {
+    height: 50vh;
+  }
 }
 .careerDetail_component .job_opening_tag {
   border-radius: 100px;

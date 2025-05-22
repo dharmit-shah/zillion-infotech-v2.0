@@ -3,13 +3,24 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
   display: flex;
   align-items: center;
+}
+@media (min-width: 1440px) {
+  .hero_component {
+    height: 80vh;
+  }
 }
 .hero_component .hero_container {
   padding: 0 24px;
   gap: 14px;
+}
+@media (min-width: 1500px) {
+  .hero_component .hero_container {
+    width: 30%;
+    margin-left: 24%;
+  }
 }
 .hero_component .hero_container .welcome_pill {
   transform-origin: 50% 0;
@@ -997,7 +1008,7 @@
 }
 
 .client_component {
-  padding: 80px 0;
+  padding: 40px 0;
   text-align: center;
 }
 .client_component .client_header h2 {
